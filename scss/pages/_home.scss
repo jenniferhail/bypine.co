@@ -7,6 +7,21 @@
 .caption-left,
 .caption-right {
 	font-family: $italic;
+	font-style: italic;
+	width: 300px;
+	font-size: 24px;
+	line-height: 30px;
+	position: absolute;
+}
+.caption-left {
+	text-align: right;
+	top: 9em;
+	left: -5em;
+}
+.caption-right {
+	text-align: left;
+	bottom: 5em;
+	right: -5em;
 }
 .two-column {
 	margin: 0 auto 6em;
