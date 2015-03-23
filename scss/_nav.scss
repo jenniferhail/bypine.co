@@ -4,13 +4,13 @@
 		float: left;
 		overflow: hidden;
 		position: relative;
-		width: 100%;
 	}
 	ul {
 		clear: left;
 		padding-left: 0;
 		margin: 0 !important;
 		list-style: none;
+		text-align: right;
 		&:after {
 		 	content: '—';
 		 	color: $text;
