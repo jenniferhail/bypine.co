@@ -1,0 +1,10 @@
+.one-column {
+	text-align: center;
+	.question {
+		font-style: italic;
+		font-family: $italic;
+	}
+	.answer {
+		font-family: $main;
+	}
+}

@@ -24,16 +24,11 @@ get_header(); ?>
 	<h2 class="caption-left"><?php the_field('left_caption'); ?></h2>
 	<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
 
-<?php while ( have_posts() ) : the_post(); ?>
-
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
-		<div class="entry-content">
+	<?php while ( have_posts() ) : the_post(); ?>
+		<div class="two-column">
 			<?php the_content(); ?>
-			<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'pine' ) . '</span>', 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
-	</article><!-- #post-<?php the_ID(); ?> -->
-
-<?php endwhile; // end of the loop. ?>
+	<?php endwhile; // end of the loop. ?>
 
 	<div class="one-column">
 		<h3 class="question"><?php the_field('one_column_title'); ?></h3>
