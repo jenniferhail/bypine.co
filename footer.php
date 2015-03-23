@@ -13,9 +13,7 @@
 </div><!-- #page -->
 <footer id="footer" role="contentinfo" class="row">
 	<div id="copyright" class="container">
-		&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?><br>
-		Site by <a href="designerURI" target="_blank" rel="nofollow">Pine</a> &amp;
-		<a href="authorURI" target="_blank" rel="nofollow">Jennifer Hail</a>
+		&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?>
 	</div>
 </footer><!-- #colophon -->
 
