@@ -26,6 +26,7 @@
     <!-- favicon & links -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <script>try{Typekit.load();}catch(e){}</script>
 
     <!-- stylesheets are enqueued via functions.php -->
 
