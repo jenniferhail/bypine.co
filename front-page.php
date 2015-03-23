@@ -35,6 +35,11 @@ get_header(); ?>
 
 <?php endwhile; // end of the loop. ?>
 
+	<div class="one-column">
+		<h3 class="question"><?php get_field('one_column_title'); ?></h3>
+		<p class="answer"><?php get_field('one_column_content'); ?></p>
+	</div>
+
 </section><!-- #primary -->
 
 <?php get_footer(); ?>
