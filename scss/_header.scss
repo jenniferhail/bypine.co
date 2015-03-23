@@ -1,12 +1,10 @@
 #site-header {
-	margin: 4em 0;
+	margin: 5em 0;
 	position: relative;
 	z-index: 250;
 	text-align: center;
-	.logo {
-		max-width: 90px;
-		img {
-			height: auto;
-		}
+	.logo img {
+		max-width: 80px;
+		height: auto;
 	}
 }
