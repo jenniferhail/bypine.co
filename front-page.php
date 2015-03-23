@@ -10,6 +10,7 @@ get_header(); ?>
 <section id="primary" role="main" class="row">
 
 	<div class="featured-image">
+	
 		<?php 
 
 		$image = get_field('featured_image');
@@ -19,10 +20,11 @@ get_header(); ?>
 			<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 		<?php endif; ?>
-	</div>
 
-	<h2 class="caption-left"><?php the_field('left_caption'); ?></h2>
-	<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
+		<h2 class="caption-left"><?php the_field('left_caption'); ?></h2>
+		<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
+
+	</div>
 
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article class="two-column">

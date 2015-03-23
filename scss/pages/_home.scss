@@ -1,5 +1,21 @@
+.featured-image {
+	margin: 0 auto 6em;
+	img {
+		opacity: 0.3;
+	}
+}
+.caption-left,
+.caption-right {
+	font-family: $italic;
+}
+.two-column {
+	margin: 0 auto 6em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 2em;
+	text-align: justify;
+}
 .one-column {
-	margin: 0 auto;
+	margin: 0 auto 6em;
 	padding: 4em 0;
 	width: 210px;
 	text-align: center;
