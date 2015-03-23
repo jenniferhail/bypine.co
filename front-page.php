@@ -25,15 +25,15 @@ get_header(); ?>
 	<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
 
 	<?php while ( have_posts() ) : the_post(); ?>
-		<div class="two-column">
+		<article class="two-column">
 			<?php the_content(); ?>
-		</div><!-- .entry-content -->
+		</article><!-- .entry-content -->
 	<?php endwhile; // end of the loop. ?>
 
-	<div class="one-column">
+	<article class="one-column">
 		<h3 class="question"><?php the_field('one_column_title'); ?></h3>
-		<p class="answer"><?php the_field('one_column_content'); ?></p>
-	</div>
+		<div class="answer"><?php the_field('one_column_content'); ?></div>
+	</article>
 
 </section><!-- #primary -->
 
