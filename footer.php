@@ -14,7 +14,7 @@
 <footer id="footer" role="contentinfo" class="row">
 	<div class="container">
 		<div id="contact-info">
-			<span class="email">hello@bypine.co</span><span class="phone">+1 270 3047616</span>
+			<a href="mailto:hello@bypine.co"><span class="email">hello@bypine.co</span></a><span class="phone">+1 270 3047616</span>
 		</div>
 		<div id="copyright">
 			&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?>
