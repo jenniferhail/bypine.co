@@ -13,7 +13,12 @@ $hover: red;
 $bg: #FFF;
 
 /* Fonts */
-$main: sans-serif;
+
+$caslon: "adobe-caslon-pro"; /* Weights: regular & italic */
+$open-sans: "open-sans"; /* Weights: light, light italic, & semi bold */
+
+$main: $open-sans;
+$italic: $caslon;
 
 /* Borders */
 $border: 1px solid #000;
