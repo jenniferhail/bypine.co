@@ -6,9 +6,10 @@
 .access {
 	margin: 0;
 	div {
-		float: left;
 		overflow: hidden;
-		position: relative;
+		position: absolute;
+		left: -8em;
+		bottom: 0;
 	}
 	ul {
 		clear: left;
