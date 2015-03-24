@@ -8,13 +8,16 @@ $footerheight: 60px;
 
 /* Palette */
 $light-grey: #f1f1f1;
+$grey-hover: rgba(85,85,85,0.6);
+$dark-grey: #4d4d4d;
 
 /* Colors */
 $text: #555;
 $links: $text;
-$hover: $light-grey;
+$hover: $grey-hover;
 
 $bg: #FFF;
+$header: $dark-grey;
 
 /* Fonts */
 
