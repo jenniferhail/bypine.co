@@ -4,7 +4,7 @@
 // 	});
 // }
 
-function scriptname(home_navbar){
+function home_navbar(){
  	jQuery(document).ready(function($){
 
  		$(document).scroll(function() {
@@ -22,7 +22,7 @@ function scriptname(home_navbar){
 				}, { duration: 100, queue: false });
 			}			
 
- 		}
+ 		});
 
  	});
 }
