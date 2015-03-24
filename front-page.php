@@ -16,6 +16,10 @@ get_header(); ?>
 	</div>
 
 	<div class="featured-image">
+
+        <nav class="access" role="navigation">
+            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+        </nav><!-- #access --> 
 	
 		<?php 
 
