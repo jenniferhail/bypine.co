@@ -80,11 +80,11 @@ function pine_scripts() {
 //		array('jquery')
 //	);
 	// theme scripts
-//	wp_enqueue_script(
-//		'theme-init',
-//		get_template_directory_uri() . '/assets/theme.js',
-//		array('jquery')
-//	);
+	wp_enqueue_script(
+		'theme-init',
+		get_template_directory_uri() . '/assets/theme.js',
+		array('jquery')
+	);
 }    
 add_action('wp_enqueue_scripts', 'pine_scripts');
 

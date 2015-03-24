@@ -45,4 +45,10 @@ get_header(); ?>
 
 </section><!-- #primary -->
 
+<script>
+<!--
+home_navbar();
+//-->
+</script>
+
 <?php get_footer(); ?>
