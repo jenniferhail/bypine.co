@@ -59,7 +59,7 @@ get_header(); ?>
 
 		<?php while ( $blog_feed->have_posts() ) : $blog_feed->the_post(); ?>
 
-				<div><?php the_title(); ?></div>
+				<?php get_template_part( 'content', 'summary' ); ?>
 
 		<?php endwhile; ?>
 		<?php wp_reset_postdata(); ?>
