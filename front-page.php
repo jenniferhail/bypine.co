@@ -49,6 +49,27 @@ get_header(); ?>
 
 </section><!-- #primary -->
 
+<section id="blog-feed" class="row">
+
+	<?php
+	// The Query
+	$blog_feed = new WP_Query( 'post_count=4' ); ?>
+
+	<?php if ( $blog_feed->have_posts() ) : ?>
+
+		<?php while ( $blog_feed->have_posts() ) : $blog_feed->the_post(); ?>
+
+				<div><?php the_title(); ?></div>
+
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
+
+	<?php else : ?>
+		<!-- Do Nothing -->
+	<?php endif; ?>
+
+</section><!-- #blog-feed -->
+
 <script>
 <!--
 home_navbar();
