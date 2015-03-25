@@ -49,7 +49,7 @@
 	}
 }
 #blog-feed {
-	@extend %clearfix;
+	@include clearfix;
 	article {
 		width: 50%;
 		float: left;
