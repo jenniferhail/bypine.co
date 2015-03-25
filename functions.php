@@ -52,8 +52,8 @@ add_action( 'after_setup_theme', 'pine_setup' );
 function my_login_logo() { ?>
     <style type="text/css">
         .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>assets/images/site-login-logo.png);
-            padding-bottom: 30px;
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/site-login-logo.png);
+            background-size: 80px 80px;
         }
     </style>
 <?php }
