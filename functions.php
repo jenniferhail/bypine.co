@@ -51,11 +51,44 @@ add_action( 'after_setup_theme', 'pine_setup' );
  ========================== */
 function my_login_logo() { ?>
     <style type="text/css">
+    	body, html {
+    		background: #ffffff;
+    	}
         .login h1 a {
             background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/site-login-logo.png);
             background-size: 80px;
             margin: 0 auto;
         }
+        .login h1 {
+        	background: #ffffff;
+        	padding-top: 50px;
+        }
+        .login form {
+        	margin-top: 0;
+        	padding-top: 10px;
+        	-webkit-box-shadow: none;
+        	box-shadow: none;
+        }
+		.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+			height: 40px;
+			line-height: 28px;
+			padding: 0px 12px 2px;
+			width: 100%;
+			margin-top: 20px;
+		}
+		.login .button-primary {
+			float: none;
+		}
+		.wp-core-ui .button-primary {
+			background: #4d4d4d;
+			border-color: none;
+        	-webkit-box-shadow: none;
+        	box-shadow: none;			
+		}
+		.wp-core-ui .button, .wp-core-ui .button-secondary {
+        	-webkit-box-shadow: none;
+        	box-shadow: none;
+		}
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
