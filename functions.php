@@ -54,6 +54,9 @@ function my_login_logo() { ?>
     	body, html {
     		background: #ffffff;
     	}
+    	#login {
+    		padding: 6% 0 0;
+    	}
         .login h1 a {
             background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/site-login-logo.png);
             background-size: 80px;
@@ -68,6 +71,13 @@ function my_login_logo() { ?>
         	padding-top: 10px;
         	-webkit-box-shadow: none;
         	box-shadow: none;
+        }
+        .login label {
+        	font-family: "adobe-garamond-pro",serif;
+        	font-style: italic;
+        }
+        .login #backtoblog, .login #nav {
+        	font-family: "open-sans",sans-serif;
         }
 		.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
 			height: 40px;
@@ -89,6 +99,15 @@ function my_login_logo() { ?>
         	-webkit-box-shadow: none;
         	box-shadow: none;
 		}
+		.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+			border-radius: none;
+			-webkit-border-radius: none;
+		}
+		input[type=checkbox], input[type=radio], input[type=checkbox], input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=radio], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+			box-shadow: none;
+			-webkit-box-shadow: none;
+		}
+
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
