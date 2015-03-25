@@ -48,3 +48,10 @@
 		margin: 0;
 	}
 }
+#blog-feed {
+	@extend %clearfix;
+	article {
+		width: 50%;
+		float: left;
+	}
+}

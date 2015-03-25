@@ -13,7 +13,8 @@ body {
 .home #main{
 	margin: 0;
 }
-#primary {
+#primary,
+#blog-feed {
 	margin: 0 auto;
 	width: $space;
 }
