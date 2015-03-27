@@ -31,7 +31,18 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		<h2 class="caption-left"><?php the_field('left_caption'); ?></h2>
+		<div class="caption-left">
+			<?php 
+
+			$image = get_field('left_caption');
+
+			if( !empty($image) ): ?>
+
+				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+			<?php endif; ?>
+		</div>
+
 		<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
 
 	</div>
