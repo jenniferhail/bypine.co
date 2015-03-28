@@ -107,7 +107,9 @@ function my_login_logo() { ?>
 			box-shadow: none;
 			-webkit-box-shadow: none;
 		}
-
+		#wp-auth-check-wrap #wp-auth-check {
+			background: white;
+		}
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
