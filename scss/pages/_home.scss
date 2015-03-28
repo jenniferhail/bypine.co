@@ -5,24 +5,23 @@
 		opacity: 0.3;
 	}
 }
-.caption-left,
-.caption-right {
-	font-family: $italic;
-	font-style: italic;
-	width: 300px;
-	font-size: 24px;
-	line-height: 30px;
-	position: absolute;
-}
 .caption-left {
-	text-align: right;
-	top: 9.5em;
-	left: -5em;
+	display: none;
+	// text-align: right;
+	// top: 9.5em;
+	// left: -5em;
 }
 .caption-right {
-	text-align: left;
-	bottom: 3em;
-	right: -5em;
+	text-align: right;
+	width: 310px;
+	position: absolute;
+	bottom: 2.5em;
+	right: -4em;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-right: 1.5em;
+	border-right: 1px solid #bbbbbb;
 }
 .two-column {
 	margin: 0 auto 6em;

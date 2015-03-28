@@ -20,10 +20,12 @@
 }
 
 .home-logo {
-	margin: 5em 0;
-	position: relative;
+	margin: 258.5px auto;
+	position: absolute;
 	z-index: 250;
 	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
 	.logo img {
 		max-width: 100px;
 		height: auto;
