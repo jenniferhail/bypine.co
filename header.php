@@ -38,6 +38,8 @@
       })(document);
     </script>
 
+    <meta name="p:domain_verify" content="506d3b083c674a9c2f45bb17492ee1b7"/>
+
     <!-- stylesheets are enqueued via functions.php -->
 
     <!-- all other scripts are enqueued via functions.php -->
