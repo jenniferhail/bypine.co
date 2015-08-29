@@ -17,7 +17,7 @@
 			<a href="mailto:hello@bypine.co"><span class="email">hello@bypine.co</span></a><a href="tel:1-270-304-7616"><span class="phone">+1 270 3047616</span></a>
 		</div>
 		<div id="copyright">
-			&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?>
+			<a href="/privacy-policy"><span class="privacy">Privacy Policy</span></a>&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?>
 		</div>
 	</div>
 </footer><!-- #colophon -->
