@@ -20,5 +20,4 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 
 </section><!-- #primary -->
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
