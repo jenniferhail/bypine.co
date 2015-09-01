@@ -47,14 +47,18 @@ get_header(); ?>
 
 	</div>
 
-	<article class="two-column">
-		<?php the_content(); ?>
-	</article><!-- .entry-content -->
+	<?php if( the_content() ): ?>
+		<article class="two-column">
+			<?php the_content(); ?>
+		</article><!-- .entry-content -->
+	<?php endif; ?>
 
-	<article class="one-column">
-		<h3 class="question"><?php the_field('one_column_title'); ?></h3>
-		<div class="answer"><?php the_field('one_column_content'); ?></div>
-	</article>
+	<?php if( the_field('one_column_title') ): ?>
+		<article class="one-column">
+			<h3 class="question"><?php the_field('one_column_title'); ?></h3>
+			<div class="answer"><?php the_field('one_column_content'); ?></div>
+		</article>
+	<?php endif; ?>
 
 </section><!-- #primary -->
 
