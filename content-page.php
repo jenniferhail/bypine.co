@@ -47,11 +47,9 @@ get_header(); ?>
 
 	</div>
 
-	<?php while ( have_posts() ) : the_post(); ?>
-		<article class="two-column">
-			<?php the_content(); ?>
-		</article><!-- .entry-content -->
-	<?php endwhile; // end of the loop. ?>
+	<article class="two-column">
+		<?php the_content(); ?>
+	</article><!-- .entry-content -->
 
 	<article class="one-column">
 		<h3 class="question"><?php the_field('one_column_title'); ?></h3>
@@ -59,27 +57,6 @@ get_header(); ?>
 	</article>
 
 </section><!-- #primary -->
-
-<section id="blog-feed" class="row">
-
-	<?php
-	// The Query
-	$blog_feed = new WP_Query( 'post_count=4' ); ?>
-
-	<?php if ( $blog_feed->have_posts() ) : ?>
-
-		<?php while ( $blog_feed->have_posts() ) : $blog_feed->the_post(); ?>
-
-				<?php get_template_part( 'content', 'summary' ); ?>
-
-		<?php endwhile; ?>
-		<?php wp_reset_postdata(); ?>
-
-	<?php else : ?>
-		<!-- Do Nothing -->
-	<?php endif; ?>
-
-</section><!-- #blog-feed -->
 
 <script>
 <!--
