@@ -52,10 +52,11 @@
  
 <body <?php body_class(); ?>>
 	<div id="page">
-		<header id="site-header" role="banner" class="row">            
+		<!--
+        <header id="site-header" role="banner" class="row">            
 			<a href="<?php echo esc_url( home_url() ); ?>/" class="logo">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.svg" onerror="this.onerror=null; this.src='<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.png'" alt="<?php bloginfo('name'); ?>">
 			</a>
-		</header><!-- #branding -->
-
+		</header>
+        -->
 		<div id="main" class="row">
