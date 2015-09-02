@@ -47,7 +47,7 @@ get_header(); ?>
 
 	</div>
 
-	<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+	<?php if( the_content() ) : while( have_posts() ) : the_post(); ?>
 		<article class="two-column">
 			<?php the_content(); ?>
 		</article><!-- .entry-content -->
