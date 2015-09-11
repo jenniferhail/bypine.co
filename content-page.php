@@ -42,8 +42,9 @@ get_header(); ?>
 
 			<?php endif; ?>
 		</div>
-
-		<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
+		<?php if( the_field('right_caption') ): ?>
+			<h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
+		<?php endif; ?>
 
 	</div>
 
