@@ -20,6 +20,12 @@ body {
 .row {
 	@include clearfix;
 }
+ @media screen and (max-width: $xs) {
+ 	#primary,
+ 	#blog-feed {
+ 		width: 90%;
+ 	}
+ }
 
 // Grid System
 .container {
