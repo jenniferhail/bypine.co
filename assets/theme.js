@@ -4,6 +4,12 @@
 // 	});
 // }
 
+function fadeInPine(){
+	jQuery(document).ready(function($){
+		$('.featured-image').delay(500).fadeTo(1000, 1);
+	});
+}
+
 function home_navbar(){
  	jQuery(document).ready(function($){
 
