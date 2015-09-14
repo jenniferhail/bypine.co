@@ -25,6 +25,12 @@
 	</div>
 </footer><!-- #colophon -->
 
+<script>
+<!--
+fadeInPine();
+//-->
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
