@@ -57,11 +57,11 @@
 	width: 450px;
 	position: absolute;
 	bottom: 2.5em;
-	right: -6em;
+	right: -5em;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 24px;
-	padding: 2em 1.5em 0;
+	padding: 1em 1.5em 1em 1em;
 	background: rgba(255,255,255,0.8);
 	border-right: 1px solid #bbbbbb;
 }
@@ -73,6 +73,7 @@
 	.caption-right {
 		text-align: center;
 		width: 100%;
+		padding: 2em 1.5em 0;
 		position: relative;
 		border-right: none;
 		background: none;
