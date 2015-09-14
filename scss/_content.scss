@@ -57,6 +57,7 @@ object {
 }
 img {
 	max-width: 100%;
+	display: block;
 	&[class*="align"],
 	&[class*="wp-image-"],
 	&[class*="attachment-"] {
