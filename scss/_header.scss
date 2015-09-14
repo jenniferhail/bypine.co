@@ -40,8 +40,7 @@
 	}
 }
 .featured-image {
-	// margin: 0 auto 6em;
-	margin: 0 auto;
+	margin: 0 auto 6em;
 	max-width: 65%;
 	img {
 		opacity: 0.9;
@@ -54,24 +53,28 @@
 	// left: -5em;
 }
 .caption-right {
-	// text-align: right;
-	text-align: center;
-	// width: 450px;
-	width: 100%;
-	// position: absolute;
-	// bottom: 2.5em;
-	// right: -6em;
-	// right: 0;
+	text-align: right;
+	width: 450px;
+	position: absolute;
+	bottom: 2.5em;
+	right: -6em;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 24px;
 	padding: 2em 1.5em 0;
-	// background: rgba(255,255,255,0.8);
-	// border-right: 1px solid #bbbbbb;
+	background: rgba(255,255,255,0.8);
+	border-right: 1px solid #bbbbbb;
 }
 @media screen and (max-width: $m) {
 	.featured-image {
 		max-width: 100%;
-		margin: 0 auto 4em;
+		margin: 0 auto;
+	}
+	.caption-right {
+		text-align: center;
+		width: 100%;
+		position: relative;
+		border-right: none;
+		background: none;
 	}
 }
