@@ -74,7 +74,6 @@
             </div>
 
             <div class="featured-image">
-            
                 <?php 
 
                 $image = get_field('featured_image');
@@ -96,10 +95,11 @@
 
                     <?php endif; ?>
                 </div>
-                <?php if( the_field('right_caption') ): ?>
-                    <h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
-                <?php endif; ?>
-
+                <div class="caption-right">
+                    <?php if( the_field('right_caption') ): ?>
+                        <h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
+                    <?php endif; ?>
+                </div>
             </div>            
 
         </header>
