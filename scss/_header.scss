@@ -29,3 +29,31 @@
 		height: auto;
 	}	
 }
+
+.featured-image {
+	margin: 0 auto 6em;
+	min-height: 500px;
+	max-width: 65%;
+	img {
+		opacity: 0.9;
+	}
+}
+.caption-left {
+	display: none;
+	// text-align: right;
+	// top: 9.5em;
+	// left: -5em;
+}
+.caption-right {
+	text-align: right;
+	width: 450px;
+	position: absolute;
+	bottom: 2.5em;
+	right: -6em;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	padding: 1.5em;
+	background: rgba(255,255,255,0.8);
+	border-right: 1px solid #bbbbbb;
+}
