@@ -29,9 +29,13 @@ footer {
 }
 @media screen and (max-width: 680px) {
 	#contact-info {
+		width: 30%;
 		.email, .phone {
 			display: none;
 			margin-right: 0;
 		}
+	}
+	#copyright {
+		width: 70%;
 	}
 }
