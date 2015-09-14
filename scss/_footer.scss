@@ -14,6 +14,9 @@ footer {
 	width: 50%;
 	float: right;
 	text-align: right;
+	ul li {
+		display: inline-block;
+	}
 	.privacy {
 		margin-right: 2em;
 	}
