@@ -6,7 +6,8 @@
 
 function fadeInPine(){
 	jQuery(document).ready(function($){
-		$('.featured-image').delay(500).fadeTo(1000, 1);
+		$('.featured-image').delay(500).fadeTo(2000, 1);
+		$('.left').delay(1000).fadeTo(2000, 1);
 	});
 }
 
