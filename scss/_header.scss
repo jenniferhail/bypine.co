@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: $xs) {
 	.featured-image {
-		width: 90%;
+		max-width: 90%;
 		margin: 0 auto 4em;
 	}
 }
