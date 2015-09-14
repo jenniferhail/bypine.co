@@ -25,6 +25,11 @@ footer {
 			display: none;
 		}		
 	}
+	#copyright {
+		ul li {
+			display: inline-block;
+		}
+	}
 
 }
 @media screen and (max-width: 680px) {
@@ -37,5 +42,8 @@ footer {
 	}
 	#copyright {
 		width: 70%;
+		ul li {
+			display: block;
+		}
 	}
 }

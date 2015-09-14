@@ -17,7 +17,10 @@
 			<a href="mailto:hello@bypine.co"><i class="icon-email"></i><span class="email">hello@bypine.co</span></a><a href="tel:1-270-304-7616"><i class="icon-phone"></i><span class="phone">+1 270 3047616</span></a><a href="http://www.instagram.com/bypine"><i class="icon-instagram"></i></a><a href="http://www.facebook.com/bypine"><i class="icon-facebook"></i></a><a href="http://www.pinterest.com/jenniferhail"><i class="icon-pinterest"></i></a>
 		</div>
 		<div id="copyright">
-			<a href="/privacy-policy"><span class="privacy">Privacy Policy</span></a>&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?>
+			<ul>
+				<li>&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?></li>
+				<li><a href="/privacy-policy"><span class="privacy">Privacy Policy</span></a></li>
+			</ul>
 		</div>
 	</div>
 </footer><!-- #colophon -->
