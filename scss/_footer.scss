@@ -34,16 +34,13 @@ footer {
 }
 @media screen and (max-width: 680px) {
 	#contact-info {
-		width: 30%;
+		width: 7em;
 		.email, .phone {
 			display: none;
 			margin-right: 0;
 		}
 	}
 	#copyright {
-		width: 70%;
-		ul li {
-			display: block;
-		}
+		width: auto;
 	}
 }
