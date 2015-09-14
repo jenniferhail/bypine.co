@@ -39,6 +39,7 @@ footer {
 @media screen and (max-width: 680px) {
 	#footer {
 		height: auto;
+		padding-bottom: 1.5em;
 	}
 	#contact-info {
 		width: 100%;
@@ -57,9 +58,12 @@ footer {
 		float: none;
 		text-align: center;
 		padding-top: 1em;
-		ul li {
-			display: block;
-			margin-right: 0;
+		ul {
+			margin: 0;
+			li {
+				display: block;
+				margin: 0;
+			}
 		}
 	}
 }
