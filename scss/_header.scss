@@ -40,7 +40,8 @@
 	}
 }
 .featured-image {
-	margin: 0 auto 6em;
+	// margin: 0 auto 6em;
+	margin: 0 auto;
 	max-width: 65%;
 	img {
 		opacity: 0.9;
@@ -64,7 +65,7 @@
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 24px;
-	padding: 1.5em;
+	padding: 2em 1.5em 0;
 	// background: rgba(255,255,255,0.8);
 	// border-right: 1px solid #bbbbbb;
 }
