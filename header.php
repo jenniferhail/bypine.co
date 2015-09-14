@@ -21,7 +21,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title><?php wp_title( '|', true, 'left' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
     
     <!-- favicon & links -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon">
@@ -95,13 +95,11 @@
 
                     <?php endif; ?>
                 </div>
-                
-                <?php if( the_field('right_caption') ): ?>
-                    <div class="caption-right">
-                        <h2 class="caption-right"><?php the_field('right_caption'); ?></h2>
-                    </div>
-                <?php endif; ?>
-                
+                <div class="caption-right">
+                    <?php if( the_field('right_caption') ): ?>
+                        <h2><?php the_field('right_caption'); ?></h2>
+                    <?php endif; ?>
+                </div>
             </div>            
 
         </header>
