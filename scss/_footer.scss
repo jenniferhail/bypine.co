@@ -20,7 +20,12 @@ footer {
 }
 
 @media screen and (min-width: 679px) {
-	#contact-info .email i {
+	#contact-info i.icon-email {
+		display: none;
+	}
+}
+@media screen and (max-width: 680px) {
+	#contact-info .email {
 		display: none;
 	}
 }
