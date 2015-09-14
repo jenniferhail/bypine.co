@@ -7,7 +7,7 @@
 .one-column {
 	margin: 0 auto 8em;
 	padding: 4em 0;
-	width: 270px;
+	width: 50%;
 	text-align: center;
 	border-top: $border;
 	border-bottom: $border;
@@ -21,6 +21,16 @@
 	.answer p {
 		margin: 0;
 		font-size: 16px;
+	}
+}
+@media screen and (min-width: 760px) {
+	.one-column {
+		width: 75%;
+	}
+}
+@media screen and (min-width: 500px) {
+	.one-column {
+		width: 100%;
 	}
 }
 #blog-feed {
