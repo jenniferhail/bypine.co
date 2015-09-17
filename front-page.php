@@ -10,8 +10,8 @@ get_header(); ?>
 <section id="primary" role="main" class="row">
 
 	<?php 
-	if ( have_posts() ) {
-		while ( have_posts() ) {
+	if ( have_posts() ) :
+		while ( have_posts() ) :
 			the_post(); ?>
 				<article class="two-column">
 					<?php the_content(); ?>
