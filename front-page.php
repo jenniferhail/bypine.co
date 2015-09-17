@@ -9,11 +9,16 @@ get_header(); ?>
 
 <section id="primary" role="main" class="row">
 
-	<?php if( the_content() ) : while( have_posts() ) : the_post(); ?>
-		<article class="two-column">
-			<?php the_content(); ?>
-		</article><!-- .entry-content -->
-	<?php endwhile; endif; // end of the loop. ?>
+	<?php 
+	if ( have_posts() ) {
+		while ( have_posts() ) {
+			the_post(); ?>
+				<article class="two-column">
+					<?php the_content(); ?>
+				</article><!-- .entry-content -->
+		<?php endwhile;
+	endif;
+	?>
 
 	<article class="one-column">
 		<h3 class="question"><?php the_field('one_column_title'); ?></h3>
