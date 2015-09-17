@@ -1,8 +1,11 @@
 .two-column {
 	margin: 0 auto 6em;
 	-webkit-column-count: 2;
-	-webkit-column-gap: 2em;
+	-webkit-column-gap: 3.5em;
 	text-align: justify;
+	p {
+		letter-spacing: 0.25px;
+	}
 }
 .one-column {
 	margin: 0 auto 3em;
