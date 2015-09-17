@@ -25,6 +25,13 @@
 		font-size: 16px;
 	}
 }
+@media screen and (max-width: $m) {
+	.two-column {
+		margin: 6em auto;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 0;
+	}
+}
 @media screen and (min-width: 761px) {
 	.one-column {
 		width: 50%;
