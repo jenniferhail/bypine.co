@@ -2,8 +2,20 @@
 .ninja-forms-form-wrap label {
 	font-family: $italic;
 	font-weight: 400;
+	font-size: 16.25px;
 	font-style: italic;
 	margin-bottom: 1em;
+}
+.ninja-forms-required-items {
+	display: none;
+}
+input#ninja_forms_field_5 {
+    width: 100%;
+    padding: .5em;
+    color: white;
+    &:hover {
+    	background-color: $hover;
+    }
 }
 
 /* See _mixins.scss for more on this method for handling HTML5 elements */
