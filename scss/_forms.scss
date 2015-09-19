@@ -1,3 +1,11 @@
+/* Ninja Forms */
+.ninja-forms-form-wrap label {
+	font-family: $italic;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
 /* See _mixins.scss for more on this method for handling HTML5 elements */
 #{$all-text-inputs}, 
 textarea {
